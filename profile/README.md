@@ -12,4 +12,4 @@ Additionally, it includes a custom **hash generator** service that pre-generates
 - **RESTful API**: The application exposes a REST API to handle all operations, including managing pastes and generating hashes.
 - **Google Cloud Storage Integration**: For added functionality, the API integrates with Google Cloud Storage for optional cloud storage of pastes.
 
-  ![System Overview](shema_mpb.png)
+  ![System Overview](https://github.com/mypastebin/.github/blob/main/shema_mpb.png)
