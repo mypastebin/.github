@@ -11,3 +11,5 @@ Additionally, it includes a custom **hash generator** service that pre-generates
 - **Redis Queue for Pre-generated Hashes**: The hash generator service uses Redis to store pre-generated hashes, optimizing performance by quickly delivering a hash without needing to generate it on the fly.
 - **RESTful API**: The application exposes a REST API to handle all operations, including managing pastes and generating hashes.
 - **Google Cloud Storage Integration**: For added functionality, the API integrates with Google Cloud Storage for optional cloud storage of pastes.
+
+  ![System Overview](shema_mpb.png)
