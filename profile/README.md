@@ -5,7 +5,7 @@ Additionally, it includes a custom **hash generator** service that pre-generates
 
 ## Features
 
-- **Paste Management**: Users can create and retrieve text-based "pastes" that are stored in Google Cloud Storage.
+- **Paste Management**: Users can create and retrieve text-based "pastes" that are stored in **Google Cloud Storage**.
 - **Expiration Dates**: Each paste has an optional expiration date, after which it becomes inaccessible.
 - **Hash Generator**: The project includes a service that generates unique hashes to be used as identifiers for each paste.
 - **Redis Queue for Pre-generated Hashes**: The hash generator service uses Redis to store pre-generated hashes, optimizing performance by quickly delivering a hash without needing to generate it on the fly.
